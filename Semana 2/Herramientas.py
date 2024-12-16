@@ -1,6 +1,8 @@
 #Técnicas de Programación
 
 #Tecnica de abstracion
+print("Metodo Abstracion")
+
 from abc import ABC, abstractmethod
 
 
@@ -35,9 +37,9 @@ rectangulo = Rectangulo(4, 6)
 print(f"Área del círculo: {circulo.calcular_area()}")
 print(f"Área del rectángulo: {rectangulo.calcular_area()}")
 
-"________________________________________________________________"
-
+print("________________________________________________________________")
 #Tecnica Encapsulamiento
+print("Encapsulamiento")
 
 class CuentaBancaria:
     def __init__(self, saldo):
@@ -67,10 +69,11 @@ cuenta.depositar(500)
 cuenta.retirar(300)
 print(f"Saldo disponible: {cuenta.consultar_saldo()}")
 
-"_________________________________________________________________"
+print("_________________________________________________________________")
 
 #Tecnica Herencia
 
+print("Herencia")
 class Animal:
     def __init__(self, nombre):
         self.nombre = nombre
@@ -95,7 +98,8 @@ gato = Gato("Whiskers")
 print(perro.hacer_sonido())
 print(gato.hacer_sonido())
 
-"________________________________________________________"
+print("________________________________________________________")
+print("Polimorfismo")
 
 #Tecnica Polimorfismo
 
