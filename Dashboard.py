@@ -40,7 +40,8 @@ def mostrar_menu():
         '9': 'Semana 9',
         '10': 'Semana 10',
         '11': 'Semana 11',
-        '12': 'Semana 12'
+        '12': 'Semana 12',
+        '13': 'Semana 13'
 
     }
 
