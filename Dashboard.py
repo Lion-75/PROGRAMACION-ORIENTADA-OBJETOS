@@ -41,7 +41,8 @@ def mostrar_menu():
         '10': 'Semana 10',
         '11': 'Semana 11',
         '12': 'Semana 12',
-        '13': 'Semana 13'
+        '13': 'Semana 13',
+        '14': 'Semana 14'
 
     }
 
